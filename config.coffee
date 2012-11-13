@@ -15,7 +15,6 @@ exports.config =
       order:
         before: [
           'vendor/scripts/auto-reload-brunch.js'
-          'vendor/scripts/jquery-1.8.1.js'
           # Twitter Bootstrap jquery plugins
           'vendor/scripts/bootstrap/bootstrap-affix.js'
           'vendor/scripts/bootstrap/bootstrap-alert.js'
