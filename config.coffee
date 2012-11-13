@@ -29,6 +29,14 @@ exports.config =
           'vendor/scripts/bootstrap/bootstrap-tooltip.js'
           'vendor/scripts/bootstrap/bootstrap-transition.js'
           'vendor/scripts/bootstrap/bootstrap-typeahed.js'
+          # Spine JS
+          'vendor/scripts/spine/spine.coffee'
+          'vendor/scripts/spine/ajax.coffee'
+          'vendor/scripts/spine/list.coffee'
+          'vendor/scripts/spine/local.coffee'
+          'vendor/scripts/spine/manager.coffee'
+          'vendor/scripts/spine/relation.coffee'
+          'vendor/scripts/spine/route.coffee'
         ]
 
     stylesheets:
