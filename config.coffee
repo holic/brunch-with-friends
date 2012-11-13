@@ -32,7 +32,7 @@ exports.config =
         ]
 
     stylesheets:
-      defaultExtension: 'sass'
+      defaultExtension: 'scss'
       joinTo: 
         'stylesheets/app.css': /^(app|vendor)/
       order:
