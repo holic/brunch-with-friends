@@ -14,6 +14,7 @@ exports.config =
         'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
       order:
         before: [
+          'vendor/scripts/console.js'
           'vendor/scripts/auto-reload-brunch.js'
           # Twitter Bootstrap jquery plugins
           'vendor/scripts/bootstrap/bootstrap-affix.js'
