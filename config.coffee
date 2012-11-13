@@ -8,7 +8,8 @@ exports.config =
     javascripts:
       defaultExtension: 'coffee'
       joinTo:
-        'js/app.js': /^(app|vendor)/
+        'js/app.js': /^app/
+        'js/vendor.js': /^vendor/
         # 'javascripts/app.js': /^app/
         # 'javascripts/vendor.js': /^vendor/
         # 'test/javascripts/test.js': /^test(\/|\\)(?!vendor)/
