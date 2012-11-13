@@ -8,10 +8,11 @@ exports.config =
     javascripts:
       defaultExtension: 'coffee'
       joinTo:
-        'javascripts/app.js': /^app/
-        'javascripts/vendor.js': /^vendor/
-        'test/javascripts/test.js': /^test(\/|\\)(?!vendor)/
-        'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
+        'js/app.js': /^(app|vendor)/
+        # 'javascripts/app.js': /^app/
+        # 'javascripts/vendor.js': /^vendor/
+        # 'test/javascripts/test.js': /^test(\/|\\)(?!vendor)/
+        # 'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
       order:
         before: [
           'vendor/scripts/console.js'
@@ -43,7 +44,8 @@ exports.config =
     stylesheets:
       defaultExtension: 'scss'
       joinTo: 
-        'stylesheets/app.css': /^(app|vendor)/
+        'css/app.css': /^(app|vendor)/
+        # 'stylesheets/app.css': /^(app|vendor)/
       order:
         before: [
           'vendor/styles/bootstrap.scss'
@@ -51,4 +53,4 @@ exports.config =
 
     templates:
       defaultExtension: 'jade'
-      joinTo: 'javascripts/app.js'
+      joinTo: 'js/app.js'
