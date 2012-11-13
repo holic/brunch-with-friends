@@ -45,7 +45,7 @@ exports.config =
         'stylesheets/app.css': /^(app|vendor)/
       order:
         before: [
-          'vendor/styles/_bootstrap.scss'
+          'vendor/styles/bootstrap.scss'
         ]
 
     templates:
