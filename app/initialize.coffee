@@ -1,5 +1,4 @@
-app = require 'application'
+App = require 'app'
 
 $ ->
-  app.initialize()
-  Backbone.history.start()
+  new App el: $('body')
